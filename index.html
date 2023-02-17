@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.6.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>project</title>
+</head>
+
+<body>
+    <form id="pageOne">
+        <div> <br>
+            <h3 id="vv">Address-<span id="edx">-Book</span> </h3> <br> <br> <br> <br> <br> <br> <br> <br>
+            <p class="dng" id="vf">THE #1 FREE ONLINE <br> ADDRESS BOOK</p>
+            <a id="er">The easiest way to get all of your friends’ mailing info stored.</a>
+        </div> <br> <br> <br>
+        <button type="submit" id="gun">Get Address Book</button> <br> <br> <br><br>
+
+        <img class="dng" id="cer" src="img/imgh.svg" alt="">
+    </form>
+
+    <form id="new-contact">
+        <div class="container"> <br> <br>
+            <div class="row">
+                <div class="ypl">
+                    <div class="col-md-10"> <br> <br>
+                        <svg id="bvn" xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
+                            class="bi bi-folder-plus" viewBox="0 0 16 16">
+                            <path
+                                d="m.5 3 .04.87a1.99 1.99 0 0 0-.342 1.311l.637 7A2 2 0 0 0 2.826 14H9v-1H2.826a1 1 0 0 1-.995-.91l-.637-7A1 1 0 0 1 2.19 4h11.62a1 1 0 0 1 .996 1.09L14.54 8h1.005l.256-2.819A2 2 0 0 0 13.81 3H9.828a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 6.172 1H2.5a2 2 0 0 0-2 2zm5.672-1a1 1 0 0 1 .707.293L7.586 3H2.19c-.24 0-.47.042-.683.12L1.5 2.98a1 1 0 0 1 1-.98h3.672z" />
+                            <path
+                                d="M13.5 10a.5.5 0 0 1 .5.5V12h1.5a.5.5 0 1 1 0 1H14v1.5a.5.5 0 1 1-1 0V13h-1.5a.5.5 0 0 1 0-1H13v-1.5a.5.5 0 0 1 .5-.5z" />
+                        </svg> <br> <br> <br>
+                        <h2 class="bmo">Create a Contact</h2> <br>
+                        <div class="form-group">
+                            <label for="new-first-name">First Name</label>
+                            <input type="text" class="form-control" id="new-first-name" required>
+                        </div> <br>
+                        <div class="form-group">
+                            <label for="new-last-name">Last Name</label>
+                            <input type="text" class="form-control" id="new-last-name" required>
+                        </div> <br>
+                        <div class="form-group">
+                            <label for="new-phone-number">Phone Number</label>
+                            <input type="text" class="form-control" id="new-phone-number" required>
+                        </div> <br>
+                        <h1 id="cdq" class="bmo">Optional Features</h1> <br>
+                        <div class="form-group">
+                            <label for="new-email-address">Email Address</label>
+                            <input type="text" class="form-control" id="new-email-address">
+                        </div> <br>
+                        <div class="form-group">
+                            <label for="new-physical-address">Physical Address</label>
+                            <input type="text" class="form-control" id="new-physical-address">
+                        </div> <br>
+
+                        <button type="submit" class="btn-primary" id="added"><b>ADD</b></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <form id="contact-book">
+            <div class="kill"> <br>
+                <h2 id="qweo">Contact-Display <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                        fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z" />
+                    </svg> </h2> <br>
+                <ul id="contacts" class="wee">
+
+                </ul>
+                <br>
+
+                <div class="col-md-6" id="frt">
+                    <div id="show-contact"> <br>
+                        <p class="kuy">First Name: <span class="first-name" id="feg"></span></p>
+                        <p class="kuy">Last Name: <span class="last-name" id="feg"></span></p>
+                        <p class="kuy">Phone Number: <span class="phone-number" id="feg"></span></p>
+                        <p class="kuy">Email Address: <span class="email-address" id="feg"></span></p>
+                        <p class="kuy">Physical Address: <span class="physical-address" id="feg"></span></p>
+                    </div>
+                    <div id="buttons">
+                    </div>
+                </div><br><br>
+            </div>
+
+        </form>
+    </form>
+
+
+
+</body>
+
+</html>

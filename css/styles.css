@@ -1,0 +1,132 @@
+#show-contact {
+    display: none;
+    margin-left: 20px;
+}
+#new-contact {
+    display: none;
+    background-color: rgb(202, 202, 202);
+    height: 100%;
+}
+#contact-book{
+    display: none;
+}
+#pageOne{
+    background-color: rgb(12, 5, 36);   
+    /* background-color: rgb(56, 5, 80); */
+}
+#vv{
+    color: red;
+    font-family: cursive;
+    margin-left: 600px;
+    font-weight: bold;
+}
+#edx{
+    color: seashell;
+}  
+#vf{
+    font-family: cursive;
+    font-size: 43px;
+    font-weight: bold;
+    color: seashell;
+    margin-left: 130px;
+}
+#er{
+    margin-left: 130px;
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: seashell;
+}
+#gun{
+    background-color: rgb(25, 209, 209);
+    color: seashell;
+    border: none;
+    font-family: cursive;
+    font-weight: bold;
+    height: 50px;
+    width: 200px;
+    margin-left: 130px;
+    font-size: 17px;
+    border-radius: 8px;
+}
+.ypl{
+    background-color: white;
+    height: 750px;
+    width: 400px;
+    margin-left: 10px;
+    border-radius: 12px;
+    box-shadow: 1px 3px 3px 2px black;
+}
+#bvn{
+    margin-left: 150px;
+    color: red;
+}
+.bmo{
+    margin-left: 80px;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(130, 141, 151);
+}
+#cdq{
+    color: rgb(178, 193, 206);;
+}
+.form-group{
+    margin-left: 10px;
+}
+label{
+    font-weight: bold;
+}
+#cer{
+    height: 500px;
+    position: fixed;
+    margin-top: -450px;
+    margin-left: 800px;
+}
+#dng{
+    display: inline-flex;
+    position: relative;
+}
+#qweo{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 225px;
+    color: rgb(255, 1, 1);
+}
+.kill{
+    position: fixed;
+    background-color: rgb(255, 222, 220);
+    /* height: 500px; */
+    width: 700px;
+    margin-top: -700px;
+    margin-left: 600px;
+    border-radius: 15px;
+    box-shadow: 2px 3px 3px 2px black;
+}
+.wee{
+    margin-left: 225px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#frt{
+    background-color: white;
+    margin-left: 175px;
+    border-radius: 8px;
+}
+.kuy{
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(236, 13, 13);
+}
+#buttons{
+    margin-left: 10px;
+    font-weight: bold;
+}
+#buttonss{
+    margin-left: 130px;
+    margin-top: -38px;
+}
+#feg{
+    color: black;
+}
